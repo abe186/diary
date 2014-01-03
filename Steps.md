@@ -1,5 +1,7 @@
 # Steps
 
+## 00-Start
+
 1. Create a new project.
     1. Create a single-page application.
     2. Name it 'Diary'. 
@@ -8,6 +10,8 @@
     3. Set the class prefix to 'DY'. 
     4. Set the device type to 'iPhone'.
     5. Ensure that 'Use Core Data' is **off**.
+    
+## 01-ViewControllers
 
 We're going to make DYViewController become the DYNoteViewController.
 
@@ -35,4 +39,18 @@ Now, we'll make it so that tapping the cell takes you to the Note View Controlle
 One last step: set the title of the view controller.
 
 9. Select the bar at the top of the table view controller, and change its title to Notes.
+
+## 02-
+
+1. Make a new Objective-C class named "DYNote". Make it a subclass of NSObject.
+
+2. Add content as per DYNote.h and DYNote.m.
+
+Key features of the Note object at this point
+
+    @property (nonatomic, strong) NSString* text;
+    @property (readonly) NSDate* createdDate;
+    @property (readonly) NSDate* modifiedDate;
+    - (int) wordCount;
+
 
