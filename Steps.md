@@ -116,3 +116,5 @@ Next, we'll add a + button to the top-right - when tapped, it'll add a new note.
 4. Add two attributes: "createdDate" and "modifiedDate", both Dates.
 
 5. Update DYNote.h and DYNote.m to reflect the latest changes. Basically, almost all of the code in these files are changed.
+
+6. Update DYNoteListViewController.m to use DYNoteStorage.
