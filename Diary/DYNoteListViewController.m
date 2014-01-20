@@ -239,8 +239,7 @@
 - (IBAction)addNote:(id)sender {
     
     // Tell the DYNoteStorage to create a new note.
-    DYNote* newNote = [[DYNoteStorage sharedStorage] createNote];
-    newNote.text = @"New Note";
+    [[DYNoteStorage sharedStorage] createNote];
     
 }
 
