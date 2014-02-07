@@ -927,7 +927,7 @@ DYNoteViewController.m
 
 ## 08-Searching
 
-We'll now make the table view searchable. (All search implementation is listed under '18-LaunchImages' in the repo)
+We'll now make the table view searchable.
 
 1. Open the storyboard.
 2. Drag in a Search Bar and Search Display Controller. When you start dragging, you'll see a search bar; drag it so that it's above the table view.
